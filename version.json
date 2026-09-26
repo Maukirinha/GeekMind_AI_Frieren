@@ -1,6 +1,6 @@
 {
-  "versao": "1.0.0",
+  "versao": "1.1.0",
   "url": "https://github.com/Maukirinha/GeekMind_AI_Frieren/releases/latest/download/Instalar-FRIEREN-IA.exe",
-  "notas": "Primeira versão publicada.",
+  "notas": "Botão de mudo ao lado de Encerrar conversa, pop-ups no visual de vidro, login de assinatura e a aba Atualizações.",
   "obrigatoria": false
 }
