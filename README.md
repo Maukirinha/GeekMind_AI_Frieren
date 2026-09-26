@@ -39,6 +39,22 @@ Ele está escrito em `core/updater.py`, na constante `URL_DO_VERSION_JSON`.
 
 ## Como publicar uma versão nova
 
+### Pelo script (o jeito curto)
+
+No projeto, com o instalador já anexado ao Release:
+
+```
+venv\Scripts\python.exe scripts\publicar_versao.py 1.1.0 "O que mudou"
+```
+
+Ele sobe o número em `core/versao.py`, escreve o `version.json` e o
+`CHANGELOG.md` aqui, empurra, e confere no endereço público se o que
+subiu é o que devia. Antes de tudo isso ele confere se o instalador
+responde no Release — e se recusa a anunciar uma versão com link
+quebrado. Para ver o que ele faria sem mexer em nada: `--so-conferir`.
+
+### Na mão
+
 1. No projeto, suba o número em `core/versao.py` (`__version__`) e gere o
    instalador com `scripts/construir_protegido.py`.
 2. Aqui no GitHub: *Releases → Draft a new release*, crie a tag (por
