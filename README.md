@@ -14,7 +14,7 @@ parado num endereço público.
 ## O endereço que o programa lê
 
 ```
-https://raw.githubusercontent.com/Maukirinha/frieren-atualizacoes/main/version.json
+https://raw.githubusercontent.com/Maukirinha/GeekMind_AI_Frieren/main/version.json
 ```
 
 Ele está escrito em `core/updater.py`, na constante `URL_DO_VERSION_JSON`.
@@ -24,7 +24,7 @@ Ele está escrito em `core/updater.py`, na constante `URL_DO_VERSION_JSON`.
 ```json
 {
   "versao": "1.1.0",
-  "url": "https://github.com/Maukirinha/frieren-atualizacoes/releases/latest/download/Instalar-FRIEREN-IA.exe",
+  "url": "https://github.com/Maukirinha/GeekMind_AI_Frieren/releases/latest/download/Instalar-FRIEREN-IA.exe",
   "notas": "O que mudou nesta versão, em uma ou duas frases.",
   "obrigatoria": false
 }
